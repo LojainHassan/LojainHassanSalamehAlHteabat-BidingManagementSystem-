@@ -1,9 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35825.156 d17.13
+VisualStudioVersion = 17.13.35825.156
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BidingManagementSystem", "BidingManagementSystem.csproj", "{1FC1B65E-95F2-4D43-82B9-3967E051037D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BidingManagementSystem.WebApi", "BidingManagementSystem.WebApi.csproj", "{1FC1B65E-95F2-4D43-82B9-3967E051037D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BidingManagementSystem.Infrastructure", "..\BidingManagementSystem.Infrastructure\BidingManagementSystem.Infrastructure.csproj", "{B445EE30-E2E0-4876-BA76-7AFBAA5C637C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BidingManagementSystem.Application", "..\BidingManagementSystem.Application\BidingManagementSystem.Application.csproj", "{A047F437-E599-4FF0-A3AE-A7CBBC2B2B7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BidingManagementSystem.Domain", "..\BidingManagementSystem.Domain\BidingManagementSystem.Domain.csproj", "{86E95A0C-1E0C-413C-B6A2-07869DFD69FE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{1FC1B65E-95F2-4D43-82B9-3967E051037D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FC1B65E-95F2-4D43-82B9-3967E051037D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FC1B65E-95F2-4D43-82B9-3967E051037D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B445EE30-E2E0-4876-BA76-7AFBAA5C637C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B445EE30-E2E0-4876-BA76-7AFBAA5C637C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B445EE30-E2E0-4876-BA76-7AFBAA5C637C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B445EE30-E2E0-4876-BA76-7AFBAA5C637C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A047F437-E599-4FF0-A3AE-A7CBBC2B2B7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A047F437-E599-4FF0-A3AE-A7CBBC2B2B7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A047F437-E599-4FF0-A3AE-A7CBBC2B2B7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A047F437-E599-4FF0-A3AE-A7CBBC2B2B7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86E95A0C-1E0C-413C-B6A2-07869DFD69FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86E95A0C-1E0C-413C-B6A2-07869DFD69FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86E95A0C-1E0C-413C-B6A2-07869DFD69FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86E95A0C-1E0C-413C-B6A2-07869DFD69FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
